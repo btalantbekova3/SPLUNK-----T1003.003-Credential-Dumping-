@@ -4,6 +4,7 @@
 This project I investigated credential dumping activity using Splunk Enterprise and Windows DC real attack datasets.
 
 The goal is to detect suspicious behavior related to NTDS and system credential access using multiple Windows log sources.
+<img width="1506" height="666" alt="image" src="https://github.com/user-attachments/assets/1aaf0e64-a6f0-4a57-bffe-88986ed22b19" />
 
 ---
 
