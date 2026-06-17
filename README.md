@@ -3,9 +3,12 @@
 ## Overview
 This project investigates credential dumping activity using Splunk Enterprise and Windows DC real attack datasets.
 
-The focus is on detecting suspicious behavior related to NTDS and system credential access using multiple Windows log sources.
+The goal isto detect suspicious behavior related to NTDS and system credential access using multiple Windows log sources.
 
 ---
+
+### Splunk Attack Data
+https://github.com/splunk/attack_data
 
 ## Environment
 
@@ -14,7 +17,7 @@ The focus is on detecting suspicious behavior related to NTDS and system credent
 - Sysmon Logs
 - PowerShell Logs
 - System Logs
-- CrowdStrike Falcon logs (if available)
+- CrowdStrike Falcon logs
 
 ---
 
