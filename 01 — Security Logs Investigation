@@ -1,0 +1,60 @@
+# Security Logs Investigation
+
+For this part I used Atomic Read Team log filed undet the T003.003 filder soecificaly 
+
+
+## Logs used
+- windows_security.log
+- 4688_windows-secuity.log
+- windows_sec_event.log
+
+---
+
+## Splunk queries
+
+I started off searching event with Event IDs: 4624 and 4672
+
+4624 means a successful login to a Windows system, 
+4672  means that the user who logged in was assigned highly privileged or administrator-equivalent rights.
+
+<img width="1506" height="666" alt="image" src="https://github.com/user-attachments/assets/1aaf0e64-a6f0-4a57-bffe-88986ed22b19" />
+
+---
+
+Successful logins:
+index=* EventCode=4624
+
+Login pattern analysis:
+index=* (EventCode=4624 OR EventCode=4625)
+| stats count by Account_Name, Source_Network_Address
+
+---
+
+## Observations
+
+- Multiple failed login attempts detected
+- Same user targeted repeatedly
+- Same source IP involved in attempts
+- Login pattern shows repeated authentication failures
+
+---
+
+## Findings
+
+- Possible brute force login activity
+- Repeated authentication failures from same source
+- Suspicious login behavior on target account
+
+---
+
+## Indicators of Compromise (IOCs)
+
+- Event IDs: 4624, 4625
+- Source IP: X.X.X.X
+- Target account: [username]
+
+---
+
+## Conclusion
+
+Suspicious login activity detected. Behavior is consistent with brute force attack pattern.
