@@ -14,7 +14,7 @@ https://github.com/splunk/attack_data
 
 ## Investigations
 
-I broke my project into 4 investigations. Each folder below shows exactly how that step went—what I looked for, what I found, and how it pushed me to the next phase.
+I broke my project into 4 investigations. Each folder below shows exactly how that step went, what I looked for, what I found, and how it pushed me to the next phase.
 
 01-Security-Logs-Investigation  
 02-Sysmon-Process-Analysis  
