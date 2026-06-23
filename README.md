@@ -21,15 +21,14 @@ During the investigation, I looked for suspicious process creation events, Power
 The following logs and files were used in this investigation:
 
 - `4688_windows-security.log`
-- `atomic_red_team.yml`
 - `crowdstrike_falcon.log`
-- `ntds_T1003.003_capattack.zip`
 - `windows-powershell.log`
 - `windows-sec-events.log`
 - `windows-security.log`
 - `windows-sysmon.log`
 - `windows-system.log`
-- 
+
+
 ---
 
 ### Splunk Attack Data
