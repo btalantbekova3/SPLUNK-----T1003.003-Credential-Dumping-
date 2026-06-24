@@ -21,7 +21,7 @@ During the investigation, I looked for suspicious process creation events, Power
 
 I broke my project into 4 investigations. Each folder below shows exactly how that step went, what I looked for, what I found, and how it pushed me to the next phase.
 
-- 01-Windows_Security-Logs-Investigation (No indicaotors of compromies (IOCs)) 
+- 01-Windows_Security-Logs-Investigation (No indicaotors of compromies (No IOCs)) 
 - 02-4688_WIndows_Secuity-logs-Investigation  (Has IOCs) 
 - 03-Crowdstrike_Falcon-logs-Investigations (Has IOCs) 
 - 04-Windows_Sysmon-Logs-Invesrigatons (Has IOCs) 
