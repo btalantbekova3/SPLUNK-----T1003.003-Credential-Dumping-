@@ -24,7 +24,7 @@ I broke my project into 4 investigations. Each folder below shows exactly how th
 - 01-Windows_Security-Logs-Investigation (No indicaotors of compromies (No IOCs)) 
 - 02-4688_WIndows_Secuity-logs-Investigation  (Has IOCs) 
 - 03-Crowdstrike_Falcon-logs-Investigations (Has IOCs) 
-- 04-Windows_Sysmon-Logs-Invesrigatons (Has IOCs) 
+- 04-Windows_Sysmon-Logs-Invesrigatons (Has non direct IOCs) 
 ---
 ## Data Sources
 
