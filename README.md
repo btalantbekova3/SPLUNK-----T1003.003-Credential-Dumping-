@@ -85,8 +85,9 @@ git lfs pull --include=datasets/attack_techniques/T1003.003/atomic_red_team/
 
 ---
 
-## Tools Used
-
+## Tools Used/ Website
+- https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx
+- https://www.atomicredteam.io/docs/atomics/T1003.003
 - Splunk Enterprise
 - | rex queries
 - SPL queries
