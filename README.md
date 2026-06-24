@@ -16,6 +16,16 @@ The goal of this project was to learn how to detect and investigate T1003.003 at
 
 During the investigation, I looked for suspicious process creation events, PowerShell activity, credential dumping behavior, and signs of unauthorized access to the NTDS.dit file.
 
+
+## Investigations
+
+I broke my project into 4 investigations. Each folder below shows exactly how that step went, what I looked for, what I found, and how it pushed me to the next phase.
+
+- 01-Windows_Security-Logs-Investigation (No indicaotors of compromies (IOCs)) 
+- 02-4688_WIndows_Secuity-logs-Investigation  (Has IOCs) 
+- 03-Crowdstrike_Falcon-logs-Investigations (Has IOCs) 
+- 04-Windows_Sysmon-Logs-Invesrigatons (Has IOCs) 
+---
 ## Data Sources
 
 The following logs and files were used in this investigation:
@@ -35,14 +45,6 @@ https://github.com/splunk/attack_data
 
 ---
 
-## Investigations
-
-I broke my project into 4 investigations. Each folder below shows exactly how that step went, what I looked for, what I found, and how it pushed me to the next phase.
-
-- 01-Windows_Security-Logs-Investigation (No indicaotors of compromies (IOCs)) 
-- 02-4688_WIndows_Secuity-logs-Investigation  (Has IOCs) 
-- 03-Crowdstrike_Falcon-logs-Investigations (Has IOCs) 
-- 04-Windows_Sysmon-Logs-Invesrigatons (Has IOCs) 
 
 
 Each section contains:
