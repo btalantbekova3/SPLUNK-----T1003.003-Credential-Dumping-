@@ -2,7 +2,7 @@
 
 # Overview
 
-In this project, I investigated **MITRE ATT&CK T1003.003 (NTDS Credential Dumping)** using **Splunk Enterprise** and a Windows Domain Controller attack dataset.
+In this project, I investigated **MITRE ATT&CK T1003.003 (NTDS Credential Dumping)** using **Splunk Enterprise** and a Windows Domain Controller attack dataset using logs porvided by Atomic Red Team
 
 ## What is T1003.003?
 
