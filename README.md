@@ -20,13 +20,12 @@ During the investigation, I looked for suspicious process creation events, Power
 
 The following logs and files were used in this investigation:
 
-- `4688_windows-security.log`
-- `crowdstrike_falcon.log`
-- `windows-powershell.log`
-- `windows-sec-events.log`
+
 - `windows-security.log`
 - `windows-sysmon.log`
-- `windows-system.log`
+- `4688_windows-security.log`
+- `crowdstrike_falcon.log`
+
 
 
 ---
@@ -40,10 +39,11 @@ https://github.com/splunk/attack_data
 
 I broke my project into 4 investigations. Each folder below shows exactly how that step went, what I looked for, what I found, and how it pushed me to the next phase.
 
-01-Security-Logs-Investigation  
-02-Sysmon-Process-Analysis  
-03-PowerShell-Activity  
-04-NTDS-Dumping-Behavior  
+01-Windows_Security-Logs-Investigation (No indicaotors of compromies (IOCs)) 
+02-4688_WIndows_Secuity-logs-Investigation  (Has IOCs) 
+03-Crowdstrike_Falcon-logs-Investigations (Has IOCs) 
+04-Windows_Sysmon-Logs-Invesrigatons (Has IOCs) 
+
 
 Each section contains:
 - Splunk queries
@@ -86,6 +86,7 @@ git lfs pull --include=datasets/attack_techniques/T1003.003/atomic_red_team/
 ## Tools Used
 
 - Splunk Enterprise
+- | rex queries
 - SPL queries
 - Sysmon
 - Windows Event Logs
