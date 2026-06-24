@@ -39,10 +39,10 @@ https://github.com/splunk/attack_data
 
 I broke my project into 4 investigations. Each folder below shows exactly how that step went, what I looked for, what I found, and how it pushed me to the next phase.
 
-01-Windows_Security-Logs-Investigation (No indicaotors of compromies (IOCs)) 
-02-4688_WIndows_Secuity-logs-Investigation  (Has IOCs) 
-03-Crowdstrike_Falcon-logs-Investigations (Has IOCs) 
-04-Windows_Sysmon-Logs-Invesrigatons (Has IOCs) 
+- 01-Windows_Security-Logs-Investigation (No indicaotors of compromies (IOCs)) 
+- 02-4688_WIndows_Secuity-logs-Investigation  (Has IOCs) 
+- 03-Crowdstrike_Falcon-logs-Investigations (Has IOCs) 
+- 04-Windows_Sysmon-Logs-Invesrigatons (Has IOCs) 
 
 
 Each section contains:
